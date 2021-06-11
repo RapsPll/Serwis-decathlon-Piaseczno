@@ -20,6 +20,12 @@
     flex-direction: column;
     text-align: center;
     margin: 20px;
+    opacity: 0;
+
+}
+
+.serwice__icons--animation {
+    /* animation: showIcons .5s forwards linear ; */
 }
 
 .service__icons:hover {
@@ -57,4 +63,34 @@
 
 .service__iconsImage--special {
     padding: 0px;
+}
+
+.service__bikes--animation {
+    animation: showIcons .3s .2s forwards linear
+}
+.service__winter--animation {
+    animation: showIcons .3s .4s forwards linear
+}
+.service__rollers--animation {
+    animation: showIcons .3s .6s forwards linear
+}
+.service__trophy--animation {
+    animation: showIcons .3s .8s forwards linear
+}
+.service__rackets--animation {
+    animation: showIcons .3s 1s forwards linear
+}
+.service__camping--animation {
+    animation: showIcons .3s 1.2s forwards linear
+}
+
+@keyframes showIcons {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
 }

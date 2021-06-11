@@ -2,6 +2,12 @@
     display: flex;
     width: 80%;
     margin: 60px auto;
+    transform: translateX(-1500px);
+}
+
+.description__show {
+    transform: translateX(0px);
+    transition: .5s linear;
 }
 
 .description__image { 
