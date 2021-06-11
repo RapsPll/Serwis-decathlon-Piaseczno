@@ -1,0 +1,45 @@
+.opinions {
+    background-color: #1A191D;
+    height: 40vh;
+    color: #fff;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opinions__title {
+    font-size: 2rem;
+}
+.opinions__header{ 
+    text-align: center;
+}
+
+.opinions__moreOpinions {
+    font-size: 1.3rem;
+    padding: 10px;
+    background-color: #007DBC;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.opinions__moreOpinionsLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.opinions__box {
+    display: flex;
+    width: 70%;
+}
+.opinions__opinion {
+    color: #fff;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5%;
+    flex-basis: 50%;
+}
+
+.opinions__paragraph {
+    font-style: italic;
+}

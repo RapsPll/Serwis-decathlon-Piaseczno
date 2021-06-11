@@ -1,0 +1,61 @@
+.contact {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input,
+.form__text {
+    margin-top: 6px;
+    width: 100%;
+    border: none;
+    background-color: #eee;
+}
+.form__input {
+    height: 35px;
+}
+
+.form__inputName {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.form__button {
+    margin-top: 20px;
+    font-size: 2rem;
+    width: 130px;
+    background-color: #007DBC;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.rightSide__title {
+    font-size: 3rem;
+}
+
+.verticalLine {
+width: 2px;
+height: 500px;
+border: 1px solid #000;
+}
+.contact__span {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.contact__email, 
+.contact__phoneNumber,
+.contact__adress {
+    font-size: 1.2rem;
+}
+
+.verticalLine {
+    margin: 0 20px;
+}
