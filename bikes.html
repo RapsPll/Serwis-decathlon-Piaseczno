@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/header.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/price.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script defer src="js/main.js"></script>
+
+    <title>Serwis rowerowy</title>
 </head>
 
 <body>
@@ -21,8 +25,7 @@
             <nav class="header__navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a class="navigation__itemLink navigation__itemLink--special"
-                            href="#">Rodzaje serwisu
+                        <a class="navigation__itemLink navigation__itemLink--special" href="#">Rodzaje serwisu
                         </a>
                         <ul class="navigation__subcategories">
                             <li class="subcategories__item">
@@ -54,8 +57,40 @@
                 </ul>
             </nav>
         </header>
-        <section>
-            <h2></h2>
+        <h2 class="prices__title">Cennik serwisu rowerowego</h2>
+        <section class="prices">
+            <div class="prices__category">
+
+                <div class="prices__itemBox">
+                    <p class="prices__item">Przegląd podstawowy </p> 
+                    <p class="prices__itemPrice">59.99zł</p>
+                </div>
+                <p class="prices__itemDescription">(regulacja przerzutek, regulacja hamulców, dokręcanie łączeń
+                    śrubowych, regulacja ciśnienia w oponach, smarowanie łańcucha,)</p>
+                <div class="prices__itemBox">
+                    <p class="prices__item">Przegląd kompleksowy </p> 
+                    <p>149.99zł</p>
+                </div>
+                <p class="prices__itemDescription">(serwis podstawowy, wymiana płynu hamulcowego)</p>
+            </div>
+            <div class="prices__category">
+                <h3 class="prices__categoryTitle"></h3>
+            </div>
+            <div class="prices__category">
+                <h3 class="prices__categoryTitle"></h3>
+            </div>
+            <div class="prices__category">
+                <h3 class="prices__categoryTitle"></h3>
+            </div>
+            <div class="prices__category">
+                <h3 class="prices__categoryTitle"></h3>
+            </div>
+            <div class="prices__category">
+                <h3 class="prices__categoryTitle"></h3>
+            </div>
+            <div class="prices__category">
+                <h3 class="prices__categoryTitle"></h3>
+            </div>
         </section>
     </main>
 </body>
