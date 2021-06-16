@@ -24,10 +24,6 @@
 
 }
 
-.serwice__icons--animation {
-    /* animation: showIcons .5s forwards linear ; */
-}
-
 .service__icons:hover {
     cursor: pointer;
 }
@@ -92,5 +88,4 @@
     100% {
         opacity: 1;
     }
-    
 }
