@@ -1,0 +1,44 @@
+.prices {
+    max-width: 70%;
+    margin: auto;
+}
+.prices__title {
+    font-size: 3rem;
+    margin: 50px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.prices__title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+.prices__category{
+    display: flex;
+    flex-direction: column;
+}
+
+.prices__itemBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.prices__item {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.prices__itemDescription {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+.prices__itemPrice {
+    margin: 0;
+}
