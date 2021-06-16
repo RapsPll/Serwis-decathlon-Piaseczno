@@ -49,6 +49,7 @@
     color: #000;
     font-size: 1.3rem;
     padding: 10px;
+    padding-left: 0px;
     transition: color .2s linear;
 }
 
