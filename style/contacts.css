@@ -17,6 +17,10 @@
     border: none;
     background-color: #eee;
 }
+
+.form__text {
+    resize: none;
+}
 .form__input {
     height: 35px;
 }
