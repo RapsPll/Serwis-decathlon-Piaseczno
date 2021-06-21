@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     height: 15vh;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
 }
 
 .title__link {
