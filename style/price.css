@@ -66,3 +66,8 @@
 .prices__categoryTitle {
     margin-top: 70px;
 }
+
+.prices__itemDescription--special {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
