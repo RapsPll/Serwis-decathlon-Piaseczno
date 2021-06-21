@@ -56,7 +56,10 @@
     gap: 20px;
 }
 
-.prices__driveLeft {
+.prices__boxLeft {
+    flex-basis: 50%;
+}
+.prices__boxRight {
     flex-basis: 50%;
 }
 
