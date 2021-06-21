@@ -1,6 +1,13 @@
+.footer {
+    background-color: #007DBC;
+    padding: 15px 0;
+}
+
 .footer__paragraph {
     width: 100%;
+    color: #fff;
     text-align: center;
+    margin: 0;
 }
 .footer-special {
     margin-top: 70px;
