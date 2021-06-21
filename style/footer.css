@@ -1,6 +1,7 @@
 .footer {
     background-color: #007DBC;
     padding: 15px 0;
+    
 }
 
 .footer__paragraph {
@@ -11,4 +12,10 @@
 }
 .footer-special {
     margin-top: 70px;
+}
+.footer-unique {
+    margin-top: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
