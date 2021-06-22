@@ -78,3 +78,14 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+@media (max-width: 997px) {
+    .prices__box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .prices {
+        width: 50%;
+    }
+}
