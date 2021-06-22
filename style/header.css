@@ -5,7 +5,7 @@
     position: sticky;
     top: 0;
     background-color: #fff;
-    z-index: 99;
+    z-index: 5;
 }
 
 .title__link {
@@ -33,6 +33,10 @@
 .header__navigation {
     margin-right: 5%;
     display: flex;
+}
+
+.header__navigation--hidden {
+    display: none;
 }
 
 .navigation__list {
@@ -88,6 +92,29 @@
 
 .subcategories__item {
     transition: .2s linear;
+}
+
+.navigation__itemLink--special:hover {
+    cursor: pointer;
+}
+
+.header--mobile {
+
+}
+
+@media(max-width: 890px) {
+    .header__navigation {
+        display: none;
+    }
+    .header {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__title {
+        display: block;
+    }
 }
 
 
