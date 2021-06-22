@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,14 +15,14 @@
     <link rel="stylesheet" href="style/promotion.css">
     <link rel="stylesheet" href="style/service.css">
     <link rel="stylesheet" href="style/passwords.css">
-    <link rel="stylesheet" href="style/arrowUp.css">
+    <link rel="stylesheet" href="style/navigationMobile.css">
     <script defer src="js/main.js"></script>
     <title>Serwis Decathlon Piaseczno</title>
 </head>
 
 <body>
     <main>
-        <header class="header">
+        <header class="header header--mobile">
             <h1 class="header__title">
                 <a class="title__link" href="index.html">
                     <span class="title__span">Serwis</span>
@@ -55,21 +54,54 @@
                             <li class="subcategories__item">
                                 <a class="subcategories__item--link" href="camping.html">turystyka</a>
                             </li>
-                            
                         </ul>
                     </li>
                     <li class="navigation__item">
                         <a class="navigation__itemLink" href="perso.html">Personalizacja</a>
                     </li>
-                    <!-- <li class="navigation__item">
+                    <li class="navigation__item">
                         <a class="navigation__itemLink" href="people.html">Ekipa</a>
-                    </li> -->
+                    </li>
                     <li class="navigation__item">
                         <a class="navigation__itemLink" href="index.html#contact">Kontakt</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <nav class="navigationMobile">
+            <ul class="navigationMobile__list">
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__itemLink" href="index.html">Strona Główna</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <span class="navigationMobile__itemLink navigationMobile__itemLink--special">Rodzaje serwisu
+                    </span>
+                    <ul class="navigationMobile__subcategories">
+                        <li class="subcategoriesMobile__item">
+                            <a class="subcategoriesMobile__item--link" href="bikes.html">rowery</a>
+                        </li>
+                        <li class="subcategoriesMobile__item">
+                            <a class="subcategoriesMobile__item--link" href="winter.html">zima</a>
+                        </li>
+                        <li class="subcategoriesMobile__item">
+                            <a class="subcategoriesMobile__item--link" href="scooter.html">hulajnogi</a>
+                        </li>
+                        <li class="subcategoriesMobile__item">
+                            <a class="subcategoriesMobile__item--link" href="rackets.html">rakiety</a>
+                        </li>
+                        <li class="subcategoriesMobile__item">
+                            <a class="subcategoriesMobile__item--link" href="camping.html">turystyka</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__itemLink" href="perso.html">Personalizacja</a>
+                </li>
+                <li class="navigationMobile__item">
+                    <a class="navigationMobile__itemLink" href="index.html#contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
         <!-- <div class="arrow">
             <button class="arrowUp">⮭</button>
         </div> -->
